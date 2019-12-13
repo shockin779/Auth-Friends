@@ -1,0 +1,12 @@
+.friends-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.pacman-loader {
+    margin-top: 200px;
+}
