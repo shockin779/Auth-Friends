@@ -1,0 +1,33 @@
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0988d1;
+    height: 75px;
+    color: #fff;
+}
+
+.site-header h1 {
+    font-size: 48px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.site-header nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-header nav a {
+    font-size: 32px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.site-header nav a:hover {
+    background-color: #fff;
+    color: #0988d1;
+}
